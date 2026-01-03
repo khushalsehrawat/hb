@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HabbitTracker • Only 1 Mode</title>
+    <meta name="description" content="Luxury habit performance dashboard with day locking, streak engine, and focus sessions." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    <link href="./assets/css/theme.css" rel="stylesheet" />
+    <link href="./assets/css/app.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg hx-nav sticky-top">
+      <div class="container py-2">
+        <a class="hx-brand" href="./index.html">
+          <img src="./assets/img/one1-mark.svg" alt="Only 1" />
+          <div class="d-flex flex-column lh-1">
+            <span class="t1">HabbitTracker</span>
+            <span class="t2">Only 1 Mode</span>
+          </div>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="topNav">
+          <div class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+            <a class="nav-link hx-link" href="./auth/login.html">Login</a>
+            <a class="btn hx-btn hx-btn-ghost" href="./auth/register.html">Create account</a>
+            <a class="btn hx-btn hx-btn-primary" id="hx-cta" href="./auth/register.html">Start in 60 seconds</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="hx-page">
+      <section class="container py-5">
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-7" data-aos="fade-up">
+            <div class="hx-glass p-4 p-md-5 position-relative hx-hero-card">
+              <div class="hx-hero-bg"></div>
+              <div class="d-flex flex-wrap gap-2 mb-3">
+                <span class="hx-chip"><i class="bi bi-lightning-charge-fill"></i> 3-second clarity</span>
+                <span class="hx-chip"><i class="bi bi-shield-check"></i> Day-lock discipline</span>
+                <span class="hx-chip"><i class="bi bi-graph-up"></i> Stats you can feel</span>
+              </div>
+
+              <h1 class="hx-hero-title display-5 mb-3">
+                A habit dashboard built like a <span style="color:var(--hx-accent)">supercar cockpit</span>.
+              </h1>
+              <p class="text-secondary fs-5 mb-4">
+                Minimal. Premium. Fast. Track your habits, lock your day, and build streaks that feel inevitable.
+              </p>
+
+              <div class="d-flex flex-wrap gap-2">
+                <a class="btn hx-btn hx-btn-primary" href="./auth/register.html">
+                  <i class="bi bi-rocket-takeoff me-2"></i>Enter Only 1 Mode
+                </a>
+                <a class="btn hx-btn hx-btn-ghost" href="./auth/login.html">
+                  <i class="bi bi-box-arrow-in-right me-2"></i>I already have an account
+                </a>
+              </div>
+
+              <div class="hx-mini-divider my-4"></div>
+              <div class="row g-3">
+                <div class="col-sm-4">
+                  <div class="hx-kpi">
+                    <div class="n">1</div>
+                    <div class="l">standard: only No.1</div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="hx-kpi">
+                    <div class="n">0</div>
+                    <div class="l">noise: just signal</div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="hx-kpi">
+                    <div class="n">∞</div>
+                    <div class="l">momentum: streak engine</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5" data-aos="fade-left" data-aos-delay="150">
+            <div class="hx-card p-4 p-md-5 hx-border-grad">
+              <div class="d-flex align-items-center gap-3">
+                <div class="hx-ring" style="--p:78">
+                  <div class="hx-ring-text">
+                    <div class="pct">78%</div>
+                    <div class="lbl">today</div>
+                  </div>
+                </div>
+                <div>
+                  <div class="fw-semibold">Instant understanding</div>
+                  <div class="text-secondary">
+                    The dashboard explains everything the moment it loads: what's active, what's done, what's next.
+                  </div>
+                </div>
+              </div>
+
+              <div class="hx-mini-divider my-4"></div>
+
+              <div class="d-grid gap-3">
+                <div class="d-flex gap-3 flex-wrap">
+                  <div class="hx-chip"><i class="bi bi-lock-fill"></i> Save & lock day</div>
+                  <div class="hx-chip"><i class="bi bi-stopwatch-fill"></i> Focus sessions</div>
+                </div>
+                <div class="d-flex gap-3 flex-wrap">
+                  <div class="hx-chip"><i class="bi bi-award-fill"></i> Badges</div>
+                  <div class="hx-chip"><i class="bi bi-stars"></i> Packs onboarding</div>
+                </div>
+              </div>
+
+              <div class="hx-mini-divider my-4"></div>
+              <div class="text-secondary small">
+                Tip: serve this frontend on <span class="fw-semibold">localhost:3000</span> to match backend CORS config.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container pb-5">
+        <div class="row g-4">
+          <div class="col-lg-4" data-aos="fade-up">
+            <div class="hx-card p-4 hx-border-grad">
+              <div class="hx-chip mb-3"><i class="bi bi-compass"></i> Direction</div>
+              <div class="fw-semibold">Lifestyle packs</div>
+              <div class="text-secondary">
+                Start with a curated pack and get a professional habit setup in seconds.
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="80">
+            <div class="hx-card p-4 hx-border-grad">
+              <div class="hx-chip mb-3"><i class="bi bi-speedometer2"></i> Performance</div>
+              <div class="fw-semibold">Daily cockpit</div>
+              <div class="text-secondary">
+                A single place to complete habits, add notes, and lock your day permanently.
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="160">
+            <div class="hx-card p-4 hx-border-grad">
+              <div class="hx-chip mb-3"><i class="bi bi-graph-up-arrow"></i> Progress</div>
+              <div class="fw-semibold">Insights that hit</div>
+              <div class="text-secondary">
+                Monthly summaries, category breakdowns, and streak stats that keep you in No.1 form.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container pb-4 text-secondary small">
+      <div class="d-flex flex-wrap justify-content-between align-items-center gap-2">
+        <div>© HabbitTracker • Luxury sports light-gradient theme</div>
+        <div class="d-flex gap-3">
+          <a class="hx-link" href="./auth/login.html">Login</a>
+          <a class="hx-link" href="./auth/register.html">Register</a>
+          <a class="hx-link" href="./app/dashboard.html">Dashboard</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 650, once: true, offset: 10 });
+    </script>
+    <script type="module" src="./src/js/pages/landing.js"></script>
+  </body>
+</html>
+
