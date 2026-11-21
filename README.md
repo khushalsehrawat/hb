@@ -24,7 +24,7 @@ Theme changes live in:
 
 All eight HTML pages include page-specific descriptions, developer author/creator metadata, Open Graph metadata and Twitter card metadata. Existing titles, the homepage description, HabbitTracker branding and application behavior are preserved.
 
-The homepage (`index.html`) includes one WebSite JSON-LD block identifying TheBenzzCreations as creator, and one visible developer credit in the existing footer. The promotional link uses `rel="noopener noreferrer nofollow"`.
+The homepage (`index.html`) includes one WebSite JSON-LD block identifying TheBenzzCreations as creator, and one visible developer credit in the existing footer. The promotional link uses `rel="nofollow"`.
 
 The official public URL has not been supplied. Canonical links, `og:url` and the WebSite `url` are omitted until HabbitTracker's public URL is verified. Do not use the developer website as the application's canonical URL. Social image URLs are omitted until a suitable public preview image is verified. Structured data does not guarantee search rich results.
 
