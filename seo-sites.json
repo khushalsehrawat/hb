@@ -1,0 +1,19 @@
+{
+  "sites": [
+    {
+      "name": "hb",
+      "root": ".",
+      "base_url": "https://khushalsehrawat.github.io/hb/",
+      "pages": {
+        "app/dashboard.html": "https://khushalsehrawat.github.io/hb/app/dashboard.html",
+        "app/focus.html": "https://khushalsehrawat.github.io/hb/app/focus.html",
+        "app/habits.html": "https://khushalsehrawat.github.io/hb/app/habits.html",
+        "app/insights.html": "https://khushalsehrawat.github.io/hb/app/insights.html",
+        "app/settings.html": "https://khushalsehrawat.github.io/hb/app/settings.html",
+        "auth/login.html": "https://khushalsehrawat.github.io/hb/auth/login.html",
+        "auth/register.html": "https://khushalsehrawat.github.io/hb/auth/register.html",
+        "index.html": "https://khushalsehrawat.github.io/hb/"
+      }
+    }
+  ]
+}
