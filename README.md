@@ -24,16 +24,19 @@ Theme changes live in:
 
 All eight HTML pages include page-specific descriptions, developer author/creator metadata, Open Graph metadata and Twitter card metadata. Existing titles, the homepage description, HabbitTracker branding and application behavior are preserved.
 
-The homepage (`index.html`) includes one WebSite JSON-LD block identifying TheBenzzCreations as creator, and one visible developer credit in the existing footer. The promotional link uses `rel="nofollow"`.
+The homepage (`index.html`) includes one WebSite JSON-LD block identifying TheBenzzCreations as creator, and one visible developer credit in the existing footer. The developer link uses a normal same-tab hyperlink.
 
 The official public URL has not been supplied. Canonical links, `og:url` and the WebSite `url` are omitted until HabbitTracker's public URL is verified. Do not use the developer website as the application's canonical URL. Social image URLs are omitted until a suitable public preview image is verified. Structured data does not guarantee search rich results.
 
 This static frontend has no package manifest, configured lint suite or build command. Backend-dependent features require the existing Spring Boot API.
 
-## Development
+## Development & Maintenance
 
-Developed by [TheBenzzCreations](https://www.thebenzzcreations.com/).
+**Developed & Maintained by
+[Khushal Sehrawat](https://github.com/khushalsehrawat)**
+— Founder of
+[TheBenzzCreations](https://www.thebenzzcreations.com/).
 
-TheBenzzCreations builds custom websites, mobile applications, business software, e-commerce platforms and AI automation solutions.
+TheBenzzCreations is a digital development studio specializing in website development, custom software, mobile applications, e-commerce solutions and AI-powered business automation.
 
-For development enquiries, visit our official website.
+For development enquiries and collaborations, visit [TheBenzzCreations](https://www.thebenzzcreations.com/).
